@@ -6,9 +6,10 @@ ShowIconsOnPushButtons=true
 
 [kdeglobals][General]
 ColorScheme=Orchiis
+Name=Orchiis
 
 [kdeglobals][Icons]
-Theme=Tela-circle
+Theme=Orchiis
 
 [plasmarc][Theme]
 name=Orchiis
