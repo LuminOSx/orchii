@@ -37,12 +37,12 @@ Image {
         y: root.height
         source: "images/rectangle.svg"
         Image {
-            source: "images/kde.svg"
+            source: "images/logo.svg"
             anchors.centerIn: parent
         }
         Rectangle {
             radius: 2
-            color: "#9f81d0"
+            color: "#626262"
             anchors {
                 bottom: parent.bottom
                 bottomMargin: 35
