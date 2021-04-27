@@ -16,11 +16,11 @@ contrast=0.2
 intensity=0.4
 saturation=1.7
 
-#[Wallpaper]
-#defaultWallpaperTheme=Orchis
-#defaultFileSuffix=.jpg
-#defaultWidth=1920
-#defaultHeight=1280
+[Wallpaper]
+defaultWallpaperTheme=Orchiis
+defaultFileSuffix=.jpg
+defaultWidth=6000
+defaultHeight=4000
 
 [AdaptiveTransparency]
 enabled=true
