@@ -48,6 +48,7 @@ Source code of is licensed under GNU GPL version 3.<br>
 - [Git](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Papirus -  _(PapirusDevelopmentTeam)_.
 - [Git](https://github.com/vinceliuice/Tela-circle-icon-theme) - Tela circle Icon Theme - _(Icons forked)_.
 - [Git](https://github.com/vinceliuice/Orchis-kde) - Orchis kde - _(Based theme and name)_.
+- [Unsplash](https://unsplash.com/@supergios) - Jonny Gios - _(Wallpaper)_.
 
 <br>
 
