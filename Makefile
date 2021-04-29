@@ -21,7 +21,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Orchiis
 	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/Orchiis
 	-rm -rf $(DESTDIR)$(PREFIX)/share/icons/Orchiis
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Orchiis
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
