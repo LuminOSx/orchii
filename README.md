@@ -1,4 +1,4 @@
-## Orchiis - Theme for KDE Plasma 5 desktop :
+## Orchiis - Theme for KDE Plasma 5 desktop
 
 ## Installation
 
@@ -57,4 +57,4 @@ Source code of is licensed under GNU GPL version 3.<br>
 The development, the publication and the different tests are done in my free time,<br>
 If you like my project, you can send a coffee at : 
 
-<center><span class="paypal"><a href="https://www.paypal.me/Leandromqrs" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span></center>
+<p align="center"><span class="paypal"><a href="https://www.paypal.me/Leandromqrs" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span></p>
