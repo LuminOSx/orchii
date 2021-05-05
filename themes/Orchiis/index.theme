@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Orchiis
+Comment=Orchiis-GTK-Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Orchiis
+ButtonLayout=:minimize,maximize,close

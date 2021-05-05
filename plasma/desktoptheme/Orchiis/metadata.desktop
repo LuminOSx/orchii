@@ -19,8 +19,8 @@ saturation=1.7
 [Wallpaper]
 defaultWallpaperTheme=Orchiis
 defaultFileSuffix=.jpg
-defaultWidth=6000
-defaultHeight=4000
+defaultWidth=3840
+defaultHeight=2160
 
 [AdaptiveTransparency]
 enabled=true
