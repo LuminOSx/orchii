@@ -58,7 +58,7 @@ SessionManagementScreen {
                 radius: 6
                 border.color: "#1A73E8"
                 border.width: 2
-                color: "#48316f"
+                color: "#FBFBFB"
             }
         }
     }
