@@ -52,8 +52,8 @@ SessionManagementScreen {
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Username")
 
         style: TextFieldStyle {
-            textColor: "white"
-            placeholderTextColor: "white"
+            textColor: "black"
+            placeholderTextColor: "black"
             background: Rectangle {
                 radius: 6
                 border.color: "#1A73E8"
@@ -78,14 +78,14 @@ SessionManagementScreen {
         onAccepted: startLogin()
 
         style: TextFieldStyle {
-            textColor: passwordFieldOutlined ? "white" : "white"
-            placeholderTextColor: passwordFieldOutlined ? "white" : "white"
+            textColor: passwordFieldOutlined ? "black" : "black"
+            placeholderTextColor: passwordFieldOutlined ? "black" : "black"
             passwordCharacter: config.PasswordFieldCharacter == "" ? "●" : config.PasswordFieldCharacter
             background: Rectangle {
                 radius: 6
                 border.color: "#1A73E8"
                 border.width: 2
-                color: "#48316f"
+                color: "#FBFBFB"
             }
         }
 
