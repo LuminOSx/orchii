@@ -37,6 +37,8 @@ Image {
         y: root.height
         source: "images/rectangle.svg"
         Image {
+            width: 84
+            height: 84
             source: "images/logo.svg"
             anchors.centerIn: parent
         }
@@ -94,3 +96,9 @@ Image {
         }
     }
 }
+
+/*##^##
+Designer {
+    D{i:0;autoSize:true;formeditorZoom:1.1;height:480;width:640}
+}
+##^##*/
