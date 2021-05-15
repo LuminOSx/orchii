@@ -1,5 +1,11 @@
 ## Orchiis - Theme for KDE Plasma 5 desktop
 
+This theme was created to be used in the Arch-based distribution called LuminOS
+
+<p align="center">
+<img src="./plasma/look-and-feel/Orchiis/contents/previews/preview.png" alt="Screenshot">
+</p>
+
 ## Installation
 
 #### Fonts :
@@ -48,7 +54,7 @@ Source code of is licensed under GNU GPL version 3.<br>
 - [Git](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Papirus -  _(PapirusDevelopmentTeam)_.
 - [Git](https://github.com/vinceliuice/Tela-circle-icon-theme) - Tela circle Icon Theme - _(Icons forked)_.
 - [Git](https://github.com/vinceliuice/Orchis-kde) - Orchis kde - _(Based theme and name)_.
-- [Unsplash](https://unsplash.com/@supergios) - Jonny Gios - _(Wallpaper)_.
+- [Deviantart](https://www.deviantart.com/hypnoshot/) - Hypnoshot - _(Wallpaper)_.
 
 <br>
 
