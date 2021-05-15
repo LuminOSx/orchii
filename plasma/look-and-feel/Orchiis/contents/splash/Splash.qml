@@ -19,7 +19,6 @@
 
 import QtQuick 2.1
 
-
 Image {
     id: root
     source: "images/background.jpg"
@@ -31,6 +30,14 @@ Image {
             introAnimation.running = true
         }
     }
+
+    Rectangle {
+        color: "black"
+        opacity: 0.3
+        width: parent.width
+        height: parent.height
+    }
+    
     Image {
         id: topRect
         anchors.horizontalCenter: parent.horizontalCenter
@@ -63,7 +70,7 @@ Image {
                 color: "#ffffff"
                 Behavior on width { 
                     PropertyAnimation {
-                        duration: 250
+                        duration: 300
                         easing.type: Easing.InOutQuad
                     }
                 }
