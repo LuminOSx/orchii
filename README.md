@@ -11,6 +11,13 @@ This theme was created to be used in the Arch-based distribution called <a href=
 
 ## Installation
 
+#### Install :
+```
+git clone https://github.com/LuminOSx/orchiis.git
+cd orchiis
+sudo make install
+```
+
 #### Fonts :
 ```
 # Arch :
