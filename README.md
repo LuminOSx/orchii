@@ -1,6 +1,9 @@
 ## Orchiis - Theme for KDE Plasma 5 desktop
 
-This theme was created to be used in the Arch-based distribution called LuminOS
+
+<p align="center">
+This theme was created to be used in the Arch-based distribution called <a href="https://github.com/LuminOSx/makeiso/">LuminOS</a>.
+</p>
 
 <p align="center">
 <img src="./plasma/look-and-feel/Orchiis/contents/previews/preview.png" alt="Screenshot">
