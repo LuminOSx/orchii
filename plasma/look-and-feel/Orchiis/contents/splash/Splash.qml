@@ -66,11 +66,11 @@ Image {
                     top: parent.top
                     bottom: parent.bottom
                 }
-                width: (parent.width / 6) * (stage - 1)
+                width: (parent.width / 6) * (stage)
                 color: "#ffffff"
                 Behavior on width { 
                     PropertyAnimation {
-                        duration: 300
+                        duration: 250
                         easing.type: Easing.InOutQuad
                     }
                 }
