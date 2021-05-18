@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= plasma color-schemes aurorae sddm icons wallpapers themes
+THEMES ?= plasma color-schemes aurorae sddm icons wallpapers themes konsole
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -23,6 +23,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/icons/Orchiis
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Orchiis
 	-rm -rf $(DESTDIR)$(PREFIX)/share/themes/Orchiis
+	-rm -rf $(DESTDIR)$(PREFIX)/share/konsole/Orchiis.*
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
