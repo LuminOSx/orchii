@@ -49,32 +49,14 @@ Image {
             source: "images/logo.svg"
             anchors.centerIn: parent
         }
-        Rectangle {
-            radius: 2
-            color: "#626262"
+        AnimatedImage { 
+            id: animation;
             anchors {
                 bottom: parent.bottom
-                bottomMargin: 35
+                bottomMargin: 16
                 horizontalCenter: parent.horizontalCenter
             }
-            height: 4
-            width: 200
-            Rectangle {
-                radius: 2
-                anchors {
-                    left: parent.left
-                    top: parent.top
-                    bottom: parent.bottom
-                }
-                width: (parent.width / 6) * (stage)
-                color: "#ffffff"
-                Behavior on width { 
-                    PropertyAnimation {
-                        duration: 250
-                        easing.type: Easing.InOutQuad
-                    }
-                }
-            }
+            source: "images/loading.gif" 
         }
     }
 
