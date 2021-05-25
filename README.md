@@ -65,6 +65,7 @@ Source code of is licensed under GNU GPL version 3.<br>
 - [Git](https://github.com/vinceliuice/Tela-circle-icon-theme) - Tela circle Icon Theme - _(Icons forked)_.
 - [Git](https://github.com/vinceliuice/Orchis-kde) - Orchis kde - _(Based theme and name)_.
 - [Deviantart](https://www.deviantart.com/hypnoshot/) - Hypnoshot - _(Wallpaper)_.
+- [Deviantart](https://github.com/openmindead/plymouth-theme-bgrt-mi) - Vladimir Yerilov - _(Plymouth forked theme)_.
 
 <br>
 
