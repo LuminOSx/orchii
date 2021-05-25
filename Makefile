@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= plasma color-schemes aurorae sddm icons wallpapers themes konsole plymouth
+THEMES ?= plasma color-schemes aurorae sddm icons wallpapers themes konsole plymouth pixmaps
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
