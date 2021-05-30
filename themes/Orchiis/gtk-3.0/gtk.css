@@ -1,0 +1,212 @@
+/*
+widget text/foreground color */
+@define-color theme_fg_color rgba(0, 0, 0, 0.87);
+/*
+text color for entries, views and content in general */
+@define-color theme_text_color rgba(0, 0, 0, 0.87);
+/*
+widget base background color */
+@define-color theme_bg_color #F2F2F2;
+/*
+text widgets and the like base background color */
+@define-color theme_base_color #FFFFFF;
+/*
+base background color of selections */
+@define-color theme_selected_bg_color #1A73E8;
+/*
+text/foreground color of selections */
+@define-color theme_selected_fg_color white;
+/*
+base background color of insensitive widgets */
+@define-color insensitive_bg_color #F2F2F2;
+/*
+text foreground color of insensitive widgets */
+@define-color insensitive_fg_color rgba(0, 0, 0, 0.38);
+/*
+insensitive text widgets and the like base background color */
+@define-color insensitive_base_color #FAFAFA;
+/*
+widget text/foreground color on backdrop windows */
+@define-color theme_unfocused_fg_color rgba(0, 0, 0, 0.87);
+/*
+text color for entries, views and content in general on backdrop windows */
+@define-color theme_unfocused_text_color rgba(0, 0, 0, 0.87);
+/*
+widget base background color on backdrop windows */
+@define-color theme_unfocused_bg_color #F2F2F2;
+/*
+text widgets and the like base background color on backdrop windows */
+@define-color theme_unfocused_base_color #FFFFFF;
+/*
+base background color of selections on backdrop windows */
+@define-color theme_unfocused_selected_bg_color #1A73E8;
+/*
+text/foreground color of selections on backdrop windows */
+@define-color theme_unfocused_selected_fg_color white;
+/*
+insensitive color on backdrop windows */
+@define-color unfocused_insensitive_color rgba(0, 0, 0, 0.38);
+/*
+widgets main borders color */
+@define-color borders rgba(0, 0, 0, 0.12);
+/*
+widgets main borders color on backdrop windows */
+@define-color unfocused_borders rgba(0, 0, 0, 0.12);
+/*
+these are pretty self explicative */
+@define-color warning_color #F4B400;
+@define-color error_color #D93025;
+@define-color success_color #0F9D58;
+/*
+these colors are exported for the window manager and shouldn't be used in applications,
+read if you used those and something break with a version upgrade you're on your own... */
+@define-color wm_title white;
+@define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
+@define-color wm_highlight rgba(255, 255, 255, 0.1);
+@define-color wm_bg #2C2C2C;
+@define-color wm_unfocused_bg #2C2C2C;
+/*
+FIXME this is really an API */
+@define-color content_view_bg #FFFFFF;
+@define-color placeholder_text_color #666666;
+/* Very contrasty background for text views (@theme_text_color foreground) */
+@define-color text_view_bg #FFFFFF;
+@define-color budgie_tasklist_indicator_color white;
+@define-color budgie_tasklist_indicator_color_active white;
+@define-color budgie_tasklist_indicator_color_active_window #989898;
+@define-color budgie_tasklist_indicator_color_attention #F4B400;
+@define-color STRAWBERRY_100 #FF9262;
+@define-color STRAWBERRY_300 #FF793E;
+@define-color STRAWBERRY_500 #F15D22;
+@define-color STRAWBERRY_700 #CF3B00;
+@define-color STRAWBERRY_900 #AC1800;
+@define-color ORANGE_100 #FFDB91;
+@define-color ORANGE_300 #FFCA40;
+@define-color ORANGE_500 #FAA41A;
+@define-color ORANGE_700 #DE8800;
+@define-color ORANGE_900 #C26C00;
+@define-color BANANA_100 #FFFFA8;
+@define-color BANANA_300 #FFFA7D;
+@define-color BANANA_500 #FFCE51;
+@define-color BANANA_700 #D1A023;
+@define-color BANANA_900 #A27100;
+@define-color LIME_100 #A2F3BE;
+@define-color LIME_300 #8ADBA6;
+@define-color LIME_500 #73C48F;
+@define-color LIME_700 #479863;
+@define-color LIME_900 #1C6D38;
+@define-color BLUEBERRY_100 #94A6FF;
+@define-color BLUEBERRY_300 #6A7CE0;
+@define-color BLUEBERRY_500 #3F51B5;
+@define-color BLUEBERRY_700 #213397;
+@define-color BLUEBERRY_900 #031579;
+@define-color GRAPE_100 #D25DE6;
+@define-color GRAPE_300 #B84ACB;
+@define-color GRAPE_500 #9C27B0;
+@define-color GRAPE_700 #830E97;
+@define-color GRAPE_900 #6A007E;
+@define-color COCOA_100 #9F9792;
+@define-color COCOA_300 #7B736E;
+@define-color COCOA_500 #574F4A;
+@define-color COCOA_700 #463E39;
+@define-color COCOA_900 #342C27;
+@define-color SILVER_100 #EEE;
+@define-color SILVER_300 #CCC;
+@define-color SILVER_500 #AAA;
+@define-color SILVER_700 #888;
+@define-color SILVER_900 #666;
+@define-color SLATE_100 #888;
+@define-color SLATE_300 #666;
+@define-color SLATE_500 #444;
+@define-color SLATE_700 #222;
+@define-color SLATE_900 #111;
+@define-color BLACK_100 #474341;
+@define-color BLACK_300 #403C3A;
+@define-color BLACK_500 #393634;
+@define-color BLACK_700 #33302F;
+@define-color BLACK_900 #2B2928;
+
+@import url("gtk-widgets.css");
+@import url("gtk-widgets-assets.css");
+@import url("widgets/headerbar.css");
+@import url("widgets/chromium.css");
+
+/********
+ * Misc *
+ ********/
+ .content-view {
+  background-color: #F2F2F2;
+}
+
+/**********************
+ * Window Decorations *
+ **********************/
+decoration {
+  transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
+  border-radius: 18px;
+  box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2), 0 16px 14.4px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12), 0 16px 14.4px 2px transparent, 0 6px 18px 5px transparent;
+  margin: 8px;
+}
+
+decoration:backdrop {
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 16px 14.4px 2px transparent, 0 6px 18px 5px transparent;
+}
+
+.maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
+  border-radius: 0;
+}
+
+.popup decoration {
+  box-shadow: none;
+}
+
+.ssd decoration {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+}
+
+.csd.popup decoration {
+  border-radius: 12px;
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+tooltip.csd decoration {
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+messagedialog.csd decoration {
+  border-radius: 18px;
+}
+
+.solid-csd decoration {
+  margin: 0;
+  padding: 2px;
+  border-radius: 0;
+  box-shadow: none;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #2C2C2C;
+}
+
+.solid-csd decoration:backdrop {
+  background-color: #2C2C2C;
+}
+
+XfdesktopIconView.view:active, calendar.raven-calendar:selected, .budgie-popover.budgie-menu button.flat:not(.image-button):not(.indicator-item):checked, box.vertical > widget > widget:selected, modelbutton.flat:selected,
+.menuitem.button.flat:selected, row:selected, calendar:selected {
+  background-color: alpha(currentColor, 0.06);
+}
+
+.nemo-window .view selection, .nemo-window filechooser stack.view scrolledwindow treeview.view selection, filechooser stack.view scrolledwindow .nemo-window treeview.view selection, .nemo-window window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough) selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow .nemo-window treeview.view:not(.progressbar):not(.trough) selection, .nemo-window .view:selected, .nemo-window filechooser stack.view scrolledwindow treeview.view:selected, filechooser stack.view scrolledwindow .nemo-window treeview.view:selected, .nautilus-window notebook .view:not(treeview) selection, .nautilus-window notebook window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(treeview):not(.progressbar):not(.trough) selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow .nautilus-window notebook treeview.view:not(treeview):not(.progressbar):not(.trough) selection, .nautilus-window notebook filechooser stack.view scrolledwindow treeview.view:not(treeview) selection, filechooser stack.view scrolledwindow .nautilus-window notebook treeview.view:not(treeview) selection, .nautilus-window notebook .view:not(treeview):selected, .nautilus-window notebook filechooser stack.view scrolledwindow treeview.view:not(treeview):selected, filechooser stack.view scrolledwindow .nautilus-window notebook treeview.view:not(treeview):selected, .nautilus-window flowboxchild:selected .icon-item-background, .view:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected:not(.progressbar):not(.trough), flowbox flowboxchild:selected, filechooser stack.view scrolledwindow treeview.view:selected {
+  color: #1A73E8;
+  background-color: rgba(26, 115, 232, 0.2);
+}
+
+.nemo-window .nemo-window-pane widget.entry:selected, window.background.csd evview.view.content-view:selected, window.background.csd evview.view.content-view:selected:backdrop, widget.view:selected, textview text selection:focus, textview text selection, label selection,
+entry selection, spinbutton:not(.vertical) selection, spinbutton.vertical selection {
+  color: white;
+  background-color: #1A73E8;
+}
+
+.monospace {
+  font-family: monospace;
+}

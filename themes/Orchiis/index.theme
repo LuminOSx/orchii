@@ -1,9 +1,10 @@
-[Desktop Entry]
-Type=X-GNOME-Metatheme
-Name=Orchiis
-Comment=Orchiis-GTK-Theme
-Encoding=UTF-8
-
 [X-GNOME-Metatheme]
+Name=Orchiis
+Type=X-GNOME-Metatheme
+Comment=Orchiis GTK Theme
+Encoding=UTF-8
 GtkTheme=Orchiis
-ButtonLayout=:minimize,maximize,close
+MetacityTheme=Breeze
+IconTheme=Orchiis
+CursorTheme=Breeze
+CursorSize=24

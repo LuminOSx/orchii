@@ -1,0 +1,47 @@
+window.background.chromium {
+    background-color: #FFFFFF;
+  }
+  
+  window.background.chromium entry,
+  window.background.chromium > button {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  
+  window.background.chromium > button {
+    color: #1A73E8;
+  }
+  
+  window.background.chromium > button:disabled {
+    color: rgba(0, 0, 0, 0.26);
+  }
+  
+  window.background.chromium menubar,
+  window.background.chromium headerbar {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  window.background.chromium headerbar button:active {
+    background-color: alpha(currentColor, 0.12);
+  }
+  
+  window.background.chromium spinner {
+    color: #1A73E8;
+  }
+  
+  window.background.chromium textview.view {
+    background-color: transparent;
+  }
+  
+  window.background.chromium treeview.view.cell:selected:focus, window.background.chromium filechooser stack.view scrolledwindow treeview.cell.view:selected:focus, filechooser stack.view scrolledwindow window.background.chromium treeview.cell.view:selected:focus, window.background.chromium window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.cell.view:selected:focus:not(.progressbar):not(.trough), window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow window.background.chromium treeview.cell.view:selected:focus:not(.progressbar):not(.trough) {
+    background-color: #1A73E8;
+    color: white;
+  }
+  
+  window.background.chromium treeview.view button, window.background.chromium filechooser stack.view scrolledwindow treeview.view button, filechooser stack.view scrolledwindow window.background.chromium treeview.view button, window.background.chromium window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough) button, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow window.background.chromium treeview.view:not(.progressbar):not(.trough) button {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: #FFFFFF;
+  }
+  
+  tooltip.background.chromium {
+    background-color: #363636;
+  }
