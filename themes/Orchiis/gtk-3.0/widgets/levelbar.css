@@ -1,0 +1,43 @@
+levelbar.horizontal block {
+    min-height: 6px;
+  }
+  
+  levelbar.horizontal.discrete block {
+    min-width: 32px;
+  }
+  
+  levelbar.horizontal.discrete block:not(:last-child) {
+    margin-right: 2px;
+  }
+  
+  levelbar.vertical block {
+    min-width: 6px;
+  }
+  
+  levelbar.vertical.discrete block {
+    min-height: 32px;
+  }
+  
+  levelbar.vertical.discrete block:not(:last-child) {
+    margin-bottom: 2px;
+  }
+  
+  levelbar trough {
+    border-radius: 12px;
+  }
+  
+  levelbar block.low {
+    background-color: #F4B400;
+  }
+  
+  levelbar block.high, levelbar block:not(.empty) {
+    background-color: #1A73E8;
+  }
+  
+  levelbar block.full {
+    background-color: #0F9D58;
+  }
+  
+  levelbar block.empty {
+    background-color: rgba(0, 0, 0, 0.12);
+  }

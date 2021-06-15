@@ -1,0 +1,28 @@
+progressbar {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: smaller;
+  }
+  
+  progressbar.horizontal trough,
+  progressbar.horizontal progress {
+    min-height: 6px;
+  }
+  
+  progressbar.vertical trough,
+  progressbar.vertical progress {
+    min-width: 6px;
+  }
+  
+  progressbar trough {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  
+  progressbar progress {
+    border-radius: 12px;
+    background-color: #1A73E8;
+  }
+  
+  progressbar trough.empty progress {
+    all: unset;
+  }

@@ -1,0 +1,24 @@
+expander title > arrow {
+    transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
+    min-width: 16px;
+    min-height: 16px;
+    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -gtk-icon-transform: rotate(-90deg);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+expander title > arrow:dir(rtl) {
+    -gtk-icon-transform: rotate(90deg);
+}
+
+expander title > arrow:checked {
+    -gtk-icon-transform: unset;
+}
+
+expander title > arrow:hover, expander title > arrow:active {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+expander title > arrow:disabled {
+    color: rgba(0, 0, 0, 0.26);
+}

@@ -1,5 +1,3 @@
-
-/* default */
 * {
     background-clip: padding-box;
     -GtkToolButton-icon-spacing: 0;
@@ -16,81 +14,78 @@
     outline-offset: -4px;
     -gtk-outline-radius: 12px;
     -gtk-secondary-caret-color: #1A73E8;
-  }
+}
 
-/***************
- * Base States *
- ***************/
 .background {
-background-color: rgba(242, 242, 242, 0.999);
-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(242, 242, 242, 0.999);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .background.csd {
-border-radius: 0 0 18px 18px;
+    border-radius: 0 0 2px 2px;
 }
 
 .background.maximized, .background.solid-csd {
-border-radius: 0;
+    border-radius: 0;
 }
 
 *:disabled {
--gtk-icon-effect: dim;
+    -gtk-icon-effect: dim;
 }
 
 .gtkstyle-fallback {
-background-color: #F2F2F2;
-color: rgba(0, 0, 0, 0.87);
+    background-color: #F2F2F2;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .gtkstyle-fallback:hover {
-background-color: #e5e5e5;
-color: rgba(0, 0, 0, 0.87);
+    background-color: #e5e5e5;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .gtkstyle-fallback:active {
-background-color: #d9d9d9;
-color: rgba(0, 0, 0, 0.87);
+    background-color: #d9d9d9;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .gtkstyle-fallback:disabled {
-background-color: #F2F2F2;
-color: rgba(0, 0, 0, 0.38);
+    background-color: #F2F2F2;
+    color: rgba(0, 0, 0, 0.38);
 }
 
 .gtkstyle-fallback:selected {
-background-color: #1A73E8;
-color: white;
+    background-color: #1A73E8;
+    color: white;
 }
 
 .view, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view {
-background-color: #FFFFFF;
-color: rgba(0, 0, 0, 0.87);
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .view:hover, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:hover:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view:hover {
-box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.08);
+    box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.08);
 }
 
 .view:disabled, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:disabled:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view:disabled {
-color: rgba(0, 0, 0, 0.38);
+    color: rgba(0, 0, 0, 0.38);
 }
 
 .view:selected:hover, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected:hover:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view:selected:hover {
-box-shadow: none;
+    box-shadow: none;
 }
 
 textview text {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 textview border {
-background-color: #FAFAFA;
-color: rgba(0, 0, 0, 0.6);
+    background-color: #FAFAFA;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 iconview:hover, iconview:selected {
-border-radius: 12px;
+    border-radius: 12px;
 }
 
 .rubberband,
@@ -155,56 +150,56 @@ XfdesktopIconView.view flowbox filechooser stack.view scrolledwindow treeview.vi
 filechooser stack.view scrolledwindow treeview.view .content-view flowbox rubberband,
 filechooser stack.view scrolledwindow treeview.view .content-view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view filechooser stack.view scrolledwindow treeview.view .content-view flowbox .rubberband {
-border: 1px solid #1A73E8;
-background-color: rgba(26, 115, 232, 0.3);
+    border: 1px solid #1A73E8;
+    background-color: rgba(26, 115, 232, 0.3);
 }
 
 flowbox flowboxchild {
-padding: 4px;
-border-radius: 12px;
+    padding: 4px;
+    border-radius: 12px;
 }
 
 .content-view .tile:selected {
-background-color: transparent;
+    background-color: transparent;
 }
 
 label {
-caret-color: currentColor;
+    caret-color: currentColor;
 }
 
 label.separator {
-color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 label:disabled {
-color: rgba(0, 0, 0, 0.38);
+    color: rgba(0, 0, 0, 0.38);
 }
 
 headerbar label:disabled, tab label:disabled, button label:disabled {
-color: inherit;
+    color: inherit;
 }
 
 label.osd {
-border-radius: 12px;
-background-color: rgba(54, 54, 54, 0.9);
-color: white;
+    border-radius: 12px;
+    background-color: rgba(54, 54, 54, 0.9);
+    color: white;
 }
 
 .dim-label {
-color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 assistant .sidebar {
-padding: 4px 0;
+    padding: 4px 0;
 }
 
 assistant .sidebar label {
-min-height: 32px;
-padding: 0 12px;
-color: rgba(0, 0, 0, 0.38);
-font-weight: 500;
+    min-height: 32px;
+    padding: 0 12px;
+    color: rgba(0, 0, 0, 0.38);
+    font-weight: 500;
 }
 
 assistant .sidebar label.highlight {
-color: rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.87);
 }

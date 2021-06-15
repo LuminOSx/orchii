@@ -1,0 +1,149 @@
+frame > border,
+.frame {
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+frame > border.view,
+.frame.view,
+window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.frame.view:not(.progressbar):not(.trough),
+filechooser stack.view scrolledwindow treeview.frame.view {
+  border-radius: 12px;
+}
+
+frame > border.flat,
+.frame.flat {
+  border-style: none;
+}
+
+frame.flat > border, statusbar frame > border {
+  border: none;
+}
+
+actionbar > revealer > box {
+  padding: 4px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  background-clip: border-box;
+}
+
+.background.csd box.vertical > actionbar > revealer > box {
+  border-radius: 0 0 18px 18px;
+}
+
+scrolledwindow viewport.frame {
+  border: none;
+}
+
+stack scrolledwindow.frame viewport.frame list {
+  border: none;
+}
+
+overshoot.top {
+  background-image: -gtk-gradient(radial, center top, 0, center top, 0.75, to(rgba(26, 115, 232, 0.24)), to(transparent));
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+overshoot.bottom {
+  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.75, to(rgba(26, 115, 232, 0.24)), to(transparent));
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+overshoot.left {
+  background-image: -gtk-gradient(radial, left center, 0, left center, 0.75, to(rgba(26, 115, 232, 0.24)), to(transparent));
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+overshoot.right {
+  background-image: -gtk-gradient(radial, right center, 0, right center, 0.75, to(rgba(26, 115, 232, 0.24)), to(transparent));
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+undershoot.top {
+  background-color: transparent;
+  background-image: linear-gradient(to left, transparent 50%, rgba(0, 0, 0, 0.26) 50%);
+  padding-top: 1px;
+  background-size: 12px 1px;
+  background-repeat: repeat-x;
+  background-origin: content-box;
+  background-position: left top;
+  margin: 0 4px;
+}
+
+undershoot.bottom {
+  background-color: transparent;
+  background-image: linear-gradient(to left, transparent 50%, rgba(0, 0, 0, 0.26) 50%);
+  padding-bottom: 1px;
+  background-size: 12px 1px;
+  background-repeat: repeat-x;
+  background-origin: content-box;
+  background-position: left bottom;
+  margin: 0 4px;
+}
+
+undershoot.left {
+  background-color: transparent;
+  background-image: linear-gradient(to top, transparent 50%, rgba(0, 0, 0, 0.26) 50%);
+  padding-left: 1px;
+  background-size: 1px 12px;
+  background-repeat: repeat-y;
+  background-origin: content-box;
+  background-position: left top;
+  margin: 0 4px;
+  margin: 4px 0;
+}
+
+undershoot.right {
+  background-color: transparent;
+  background-image: linear-gradient(to top, transparent 50%, rgba(0, 0, 0, 0.26) 50%);
+  padding-right: 1px;
+  background-size: 1px 12px;
+  background-repeat: repeat-y;
+  background-origin: content-box;
+  background-position: right top;
+  margin: 0 4px;
+  margin: 4px 0;
+}
+
+junction {
+  border-style: solid none none solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: #FFFFFF;
+}
+
+junction:dir(rtl) {
+  border-style: solid solid none none;
+}
+
+separator {
+  min-width: 1px;
+  min-height: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+preferences stacksidebar.sidebar list separator, .tweak-categories separator, stacksidebar.sidebar + separator.vertical,
+stacksidebar.sidebar separator.horizontal, button.font separator, button.file separator {
+  min-width: 0;
+  min-height: 0;
+  background-color: transparent;
+}

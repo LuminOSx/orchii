@@ -1,0 +1,145 @@
+.csd filechooser {
+    background-color: #FFFFFF;
+    border-radius: 0 0 18px 18px;
+  }
+  
+  filechooser .dialog-action-box {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  
+  filechooser #pathbarbox {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #F2F2F2;
+  }
+  
+  filechooser stack.view {
+    background-color: transparent;
+  }
+  
+  filechooser stack.view scrolledwindow {
+    background-color: transparent;
+    border-radius: 0 0 18px 0;
+  }
+  
+  filechooser stack.view scrolledwindow list {
+    background-color: transparent;
+  }
+  
+  filechooser stack.view scrolledwindow treeview.view, filechooser stack.view window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view {
+    background-color: transparent;
+  }
+  
+  filechooser stack.view > placesview {
+    background-color: transparent;
+  }
+  
+  filechooser stack.view > placesview > actionbar, filechooser stack.view > placesview > actionbar > revealer > box {
+    background-color: transparent;
+  }
+  
+  filechooser stack.view frame > border {
+    border: none;
+  }
+  
+  .csd filechooser placessidebar {
+    background: none;
+    border-bottom-left-radius: 18px;
+  }
+  
+  filechooser actionbar, filechooser actionbar > revealer > box {
+    background-color: transparent;
+  }
+
+  /* VIEW THIS AFTER*/
+
+  row image.sidebar-icon {
+    transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  row image.sidebar-icon:disabled {
+    color: rgba(0, 0, 0, 0.26);
+  }
+  
+  placessidebar.sidebar > viewport.frame {
+    border-style: none;
+  }
+  
+  placessidebar.sidebar list {
+    padding: 1px 0 4px;
+  }
+  
+  placessidebar.sidebar row {
+    min-height: 32px;
+    margin: -1px 4px -1px 0;
+    padding: 0;
+    border-radius: 0 9999px 9999px 0;
+  }
+  
+  placessidebar.sidebar row > revealer {
+    padding: 0 8px 0 16px;
+  }
+  
+  placessidebar.sidebar row:selected {
+    background-color: alpha(currentColor, 0.1);
+    color: #1A73E8;
+    font-weight: 500;
+  }
+  
+  placessidebar.sidebar row:selected image.sidebar-icon {
+    color: #1A73E8;
+  }
+  
+  placessidebar.sidebar row:disabled {
+    color: rgba(0, 0, 0, 0.38);
+  }
+  
+  placessidebar.sidebar row image.sidebar-icon:dir(ltr) {
+    padding-right: 8px;
+  }
+  
+  placessidebar.sidebar row image.sidebar-icon:dir(rtl) {
+    padding-left: 8px;
+  }
+  
+  placessidebar.sidebar row label.sidebar-label {
+    color: inherit;
+  }
+  
+  placessidebar.sidebar row label.sidebar-label:dir(ltr) {
+    padding-right: 2px;
+  }
+  
+  placessidebar.sidebar row label.sidebar-label:dir(rtl) {
+    padding-left: 2px;
+  }
+  
+  placessidebar.sidebar row.sidebar-placeholder-row {
+    background-color: alpha(currentColor, 0.08);
+  }
+  
+  placessidebar.sidebar row.sidebar-new-bookmark-row {
+    color: #1A73E8;
+  }
+  
+  placessidebar.sidebar row.sidebar-new-bookmark-row image.sidebar-icon {
+    color: #1A73E8;
+  }
+  
+  placessidebar.sidebar row:drop(active) {
+    transition: all 75ms cubic-bezier(0, 0, 0.2, 1), box-shadow 0ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.08);
+  }
+  
+  placesview .server-list-button > image {
+    -gtk-icon-transform: rotate(0turn);
+  }
+  
+  placesview .server-list-button:checked > image {
+    -gtk-icon-transform: rotate(-0.5turn);
+  }
+  
+  placesview > actionbar > revealer > box > label {
+    padding-left: 8px;
+    padding-right: 8px;
+  }

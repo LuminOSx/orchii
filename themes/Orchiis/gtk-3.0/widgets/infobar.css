@@ -1,0 +1,63 @@
+infobar {
+    border: none;
+    margin-bottom: 0;
+  }
+  
+  infobar.info > revealer > box, infobar.info:hover > revealer > box, infobar.info:backdrop > revealer > box {
+    background-color: #FFFFFF;
+  }
+  
+  infobar.info > revealer > box button, infobar.info > revealer > box button.text-button:not(:disabled), infobar.info:hover > revealer > box button, infobar.info:hover > revealer > box button.text-button:not(:disabled), infobar.info:backdrop > revealer > box button, infobar.info:backdrop > revealer > box button.text-button:not(:disabled) {
+    color: #1A73E8;
+  }
+  
+  infobar.action > revealer > box, infobar.action:backdrop > revealer > box, infobar.question > revealer > box, infobar.question:backdrop > revealer > box {
+    background-color: #1A73E8;
+    color: white;
+  }
+  
+  infobar.action > revealer > box button, infobar.action > revealer > box button:hover, infobar.action > revealer > box button:focus, infobar.action > revealer > box button:active, infobar.action > revealer > box button:checked, infobar.action > revealer > box button.text-button:not(:disabled), infobar.action:backdrop > revealer > box button, infobar.action:backdrop > revealer > box button:hover, infobar.action:backdrop > revealer > box button:focus, infobar.action:backdrop > revealer > box button:active, infobar.action:backdrop > revealer > box button:checked, infobar.action:backdrop > revealer > box button.text-button:not(:disabled), infobar.question > revealer > box button, infobar.question > revealer > box button:hover, infobar.question > revealer > box button:focus, infobar.question > revealer > box button:active, infobar.question > revealer > box button:checked, infobar.question > revealer > box button.text-button:not(:disabled), infobar.question:backdrop > revealer > box button, infobar.question:backdrop > revealer > box button:hover, infobar.question:backdrop > revealer > box button:focus, infobar.question:backdrop > revealer > box button:active, infobar.question:backdrop > revealer > box button:checked, infobar.question:backdrop > revealer > box button.text-button:not(:disabled) {
+    color: white;
+  }
+  
+  infobar.action > revealer > box *:link, infobar.action:backdrop > revealer > box *:link, infobar.question > revealer > box *:link, infobar.question:backdrop > revealer > box *:link {
+    color: white;
+  }
+  
+  infobar.action:hover > revealer > box, infobar.question:hover > revealer > box {
+    background-color: #3181ea;
+  }
+  
+  infobar.warning > revealer > box, infobar.warning:backdrop > revealer > box {
+    background-color: #F4B400;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  infobar.warning > revealer > box button, infobar.warning > revealer > box button:hover, infobar.warning > revealer > box button:focus, infobar.warning > revealer > box button:active, infobar.warning > revealer > box button:checked, infobar.warning > revealer > box button.text-button:not(:disabled), infobar.warning:backdrop > revealer > box button, infobar.warning:backdrop > revealer > box button:hover, infobar.warning:backdrop > revealer > box button:focus, infobar.warning:backdrop > revealer > box button:active, infobar.warning:backdrop > revealer > box button:checked, infobar.warning:backdrop > revealer > box button.text-button:not(:disabled) {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  infobar.warning > revealer > box *:link, infobar.warning:backdrop > revealer > box *:link {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  infobar.warning:hover > revealer > box {
+    background-color: #ffc00f;
+  }
+  
+  infobar.error > revealer > box, infobar.error:backdrop > revealer > box {
+    background-color: #D93025;
+    color: white;
+  }
+  
+  infobar.error > revealer > box button, infobar.error > revealer > box button:hover, infobar.error > revealer > box button:focus, infobar.error > revealer > box button:active, infobar.error > revealer > box button:checked, infobar.error > revealer > box button.text-button:not(:disabled), infobar.error:backdrop > revealer > box button, infobar.error:backdrop > revealer > box button:hover, infobar.error:backdrop > revealer > box button:focus, infobar.error:backdrop > revealer > box button:active, infobar.error:backdrop > revealer > box button:checked, infobar.error:backdrop > revealer > box button.text-button:not(:disabled) {
+    color: white;
+  }
+  
+  infobar.error > revealer > box *:link, infobar.error:backdrop > revealer > box *:link {
+    color: white;
+  }
+  
+  infobar.error:hover > revealer > box {
+    background-color: #dd443a;
+  }

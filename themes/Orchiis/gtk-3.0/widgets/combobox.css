@@ -1,0 +1,117 @@
+combobox arrow {
+    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    min-height: 16px;
+    min-width: 16px;
+}
+
+combobox decoration {
+    transition: none;
+}
+
+combobox button.combo cellview:dir(ltr) {
+    margin-left: 0px;
+}
+
+combobox button.combo cellview:dir(rtl) {
+    margin-right: 0px;
+}
+
+combobox menu {
+    padding: 2px 0;
+}
+
+combobox menu menuitem {
+    min-height: 28px;
+    padding: 0 8px;
+}
+
+combobox menu > arrow.top {
+    margin-top: -2px;
+}
+
+combobox menu > arrow.bottom {
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+
+combobox.linked button:nth-child(2):dir(ltr) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+combobox.linked button:nth-child(2):dir(rtl) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+combobox > .linked:not(.vertical) > entry:not(:only-child) {
+    border-radius: 12px;
+}
+
+combobox > .linked:not(.vertical) > entry:not(:only-child):first-child {
+    margin-right: -32px;
+    padding-right: 32px;
+}
+
+combobox > .linked:not(.vertical) > entry:not(:only-child):last-child {
+    margin-left: -32px;
+    padding-left: 32px;
+}
+
+combobox > .linked:not(.vertical) > button:not(:only-child) {
+    min-height: 16px;
+    min-width: 16px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.linked:not(.vertical) > combobox:not(:first-child) > box > button.combo {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.linked:not(.vertical) > combobox:not(:last-child) > box > button.combo {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.linked.vertical > combobox:not(:first-child) > box > button.combo {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.linked.vertical > combobox:not(:last-child) > box > button.combo {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+button.combo:only-child {
+    border-radius: 12px;
+    font-weight: normal;
+    transition: all 75ms cubic-bezier(0, 0, 0.2, 1), box-shadow 300ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: inset 0 0 0 2px transparent;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgba(0, 0, 0, 0.87);
+}
+
+button.combo:only-child:focus {
+    background-color: alpha(currentColor, 0.08);
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.26);
+}
+
+button.combo:only-child:hover {
+    background-color: alpha(currentColor, 0.08);
+    box-shadow: inset 0 0 0 2px alpha(currentColor, 0.08);
+}
+
+button.combo:only-child:checked {
+    background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 0 0 2px #1A73E8;
+}
+
+button.combo:only-child:disabled {
+    box-shadow: inset 0 0 0 2px transparent;
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgba(0, 0, 0, 0.38);
+}

@@ -1,0 +1,23 @@
+tooltip {
+    border-radius: 6px;
+    box-shadow: none;
+  }
+  
+  tooltip.background {
+    background-color: rgba(54, 54, 54, 0.9);
+    color: white;
+  }
+  
+  tooltip.background.csd {
+    border-radius: 12px;
+  }
+  
+  tooltip decoration {
+    background-color: transparent;
+  }
+  
+  tooltip > box {
+    margin: -6px;
+    min-height: 24px;
+    padding: 4px 8px;
+  }
