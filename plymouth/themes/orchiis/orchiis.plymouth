@@ -24,6 +24,9 @@ ProgressBarForegroundColor=0xffffff
 DialogClearsFirmwareBackground=false
 MessageBelowAnimation=true
 
+[script]
+ScriptFile=/usr/share/plymouth/themes/orchiis/orchiis.script
+
 [boot-up]
 UseEndAnimation=true
 UseFirmwareBackground=true
