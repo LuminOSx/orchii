@@ -1,0 +1,2 @@
+Window.SetBackgroundTopColor(0.34, 0.34, 0.34);
+Window.SetBackgroundBottomColor(0.34, 0.34, 0.34);
