@@ -58,13 +58,13 @@ fun refresh (){
     mode = Plymouth.GetMode ();
     if (status == "normal" && mode == "boot" )
     {
-        if (count < 12) {
+        if (count < 5) {
            count++;
         }
         else {
            progress++;
 
-           if (progress >= 5)
+           if (progress >= 12)
               progress = 0;
            count = 0;
         }
