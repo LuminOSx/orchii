@@ -18,8 +18,8 @@ Window.GetMaxHeight = fun (){
     return height;
 };
 
-Window.SetBackgroundTopColor(0.22, 0.22, 0.22);
-Window.SetBackgroundBottomColor(0.22, 0.22, 0.22);
+Window.SetBackgroundTopColor(34, 34, 34);
+Window.SetBackgroundBottomColor(34, 34, 34);
 
 if ( Plymouth.GetMode () == "boot" )
 {
