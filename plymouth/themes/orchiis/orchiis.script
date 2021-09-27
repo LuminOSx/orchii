@@ -34,6 +34,11 @@ if ( Plymouth.GetMode () == "boot" )
     logo.sprite.SetY (Window.GetHeight() / 2 - logo.image.GetHeight() / 2);
     logo.sprite.SetZ (10000);
     spin = 0;
+
+    spinner = Image("spinner.png");
+    spinner = spinner.Rotate(spin);
+    spinner_sprite = Sprite(spinner);
+    spinner_sprite.SetPosition(Window.GetX() + (Window.GetWidth() / 2) - (spinner.GetWidth() / 2), Window.GetY() + (Window.GetHeight() / 2) - (spinner.GetHeight() / 2) + 100);
 }
 /* In every other case we just want a pulsing logo */
 else
@@ -47,8 +52,6 @@ else
 }
 
 /* This function gets called continuosly by Plymouth, up to 50 times a second */
-spinner_sprite;
-spinner;
 fun refresh (){
     /* Again at startup we want a throbber */
     mode = Plymouth.GetMode ();
